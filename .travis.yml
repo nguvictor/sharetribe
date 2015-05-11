@@ -4,11 +4,7 @@ rvm:
 - 2.1.2
 env:
   matrix:
-  - SUITE="rspec"
-  - SUITE="rubocop"
   - SUITE="cucumber"
-  - SUITE="mocha"
-  - SUITE="jshint"
   global:
     - BUNDLE_ARCHIVE="travis-bundle-cache"
     - AWS_S3_REGION="us-east-1"
